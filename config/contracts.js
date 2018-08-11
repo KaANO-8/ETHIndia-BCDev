@@ -36,6 +36,12 @@ module.exports = {
       //SimpleStorage: {
       //  args: [ 100 ]
       //}
+      NGOs: {
+        args: []
+      },
+      NGO: {
+        deploy: false
+      }
     }
   }
 };

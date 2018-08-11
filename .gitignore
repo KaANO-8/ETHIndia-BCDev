@@ -1,0 +1,4 @@
+.embark
+dist
+node_modules
+chains.json
