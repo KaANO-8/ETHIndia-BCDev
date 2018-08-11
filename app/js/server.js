@@ -44,13 +44,13 @@ function findNgos(name,callback)
       });
 }
 
-app.post('/onboard', function(req, res) {   
+app.post('/onBoard', function(req, res) {   
     console.log(req.body.name)
     addToMongo(req.body.name,req.body.dsc,req.body.about)
     res.status(createdStatus).send({status:"Success"})
 });
 
-app.get('/displayngos', function(req,res){
+app.get('/displayNGOs', function(req,res){
     findNgos(req.params.tagId,(data) => {
         console.log(data);
         res.status(successStatus).send(JSON.stringify(data))
