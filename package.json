@@ -8,6 +8,10 @@
   "author": "",
   "license": "ISC",
   "homepage": "",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
   }
 }
